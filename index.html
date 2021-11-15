@@ -2,13 +2,14 @@
 <html>
     <head>
         <meta name="viewport" initial-scale="1.0">
+         <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
          
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
-      <link rel="stylesheet" href="css/index.css">
+     
   <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <!-- JavaScript Bundle with Popper -->
@@ -30,7 +31,7 @@
                     <a class="nav-link" href="#">Skills</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Work</a>
+                    <a class="nav-link" href="https://github.com/Anayjahrob/UX_UI_HW_20.git ">Work</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link disabled" href="#">Contact</a>
@@ -63,32 +64,48 @@
             <span class="sr-only">Next</span>
           </a>
         </div>
-
-        <main>
-            <h3> Role </h3>
+<!---scroll-->
+<div id="list-example" class="list-group">
+  <a class="list-group-item list-group-item-action" href="#list-item-1">My Role</a>
+  <a class="list-group-item list-group-item-action" href="#list-item-2">Summary</a>
+  <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
+  <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+</div>
+<div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+  <h4 id="list-item-1">Item 1</h4>
+  <p>...</p>
+  <h4 id="list-item-2">Item 2</h4>
+  <p>...</p>
+  <h4 id="list-item-3">Item 3</h4>
+  <p>...</p>
+  <h4 id="list-item-4">Item 4</h4>
+  <p>...</p>
+</div>
+        <main class="container-fluid">
+            <h3 class="title"> Role </h3>
             <p>UX researcher/ Designer </p>
-            <h3> Summary  </h3>
+            <h3 class="title">  Summary  </h3>
             <p> Rewire is a psychology-based habit tracker designed to help users improve their lifestyle and achieve their goals by rewiring the brain to establish healthy habits and promote consistent and permanent change.</p>
-            <h3> Problem/Solution </h3>
+            <h3 class="title"> Problem/Solution </h3>
             <p>Individuals who want to improve their lifestyle are growing increasingly frustrated with unsuccessful attempts at achieving their goals due to lack of time, energy, consistency and accountability. Current habit reinforcing tools have over complicated and intricate designs that fail to provide an avenue for users to manually write their goals.
                 We believe a habit reinforcing tool can help individuals improve their lifestyle, achieve their goals by rewiring brain to establish healthy habits and promote consistent, permanent change.</p>
 
-            <h3> Phase 1: User Research </h3>
-            <img src="images/competitive analysis.png">
+                <h3 class="title"> Phase 1: User Research </h3>
+            <img class="img" src="images/competitive analysis.png">
             <p>Our research process consisted of   five user interviews, 16 surveys and a competitive analysis of direct and indirect competitors.  after we gathered the data we synthisized it by conducting creating an affinity diagram.</p>
-           <h3>  Phase 2: Definition & Synthesis </h3>
-           <img class="persona" src="images/persona.png">
+            <h3 class="title"> Phase 2: Definition & Synthesis </h3>
+            <img class="img persona"src="images/persona.png">
            <p> With the information gathered from research we were able to create the user persona Sarah, a digital marketing grad student aiming to improve health and personal finance.</p>
-            <h3> Phase 3: Ideation </h3>
-            <img src="images/Screen Shot 2021-09-23 at 10.38 1.png"> <img src="images/Screen Shot 2021-09-23 at 9.26 2.png">
+           <h3 class="title"> Phase 3: Ideation </h3>
+           <img class="img"src="images/Screen Shot 2021-09-23 at 10.38 1.png"> <img src="images/Screen Shot 2021-09-23 at 9.26 2.png">
             <p> To ideate the findings we conducted and "I like, I wish, What if" diagram as well as a prioritization matrix. From our”I like, I wish, What if” diagram we discovered that it was important to use psychology based insights, display Sarah’s progress and allow her to connectand compare with other users, track and calculate a budget, journal/log process, and have reminders to complete and log goals. Through the priority matrix the two features we ecided must be included are psychological insights and reminders to keep the user on track. </p>
-            <h3> Phase 4: Prototyping (low-hi)</h3>
-            <img src="images/proto.png" alt=""> <img src="images/proto2.png">
+            <h3 class="title">  Phase 4: Prototyping (low-hi)</h3>
+            <img class="img"src="images/proto.png" alt=""> <img src="images/proto2.png">
             <p>While working on our prototype we created a user flow that outlined Sarah's process to create an account, create a habit, and log their progress.  The croup individually created paper prototypes and combined the best features to develop our low and high fidelity prototype.  </p>
-            <h3>Phase 5: User Testing + Outcomes</h3>
-            <img src="images/graph.png">
+            <h3 class="title"> Phase 5: User Testing + Outcomes</h3>
+            <img class="img"src="images/graph.png">
             <p> To test our app we created a task flow outlining three tasks: create an account, create a habit and set a reminder, and write and/or type a reflection note. each task had an average success rate of at 90%.</p>
-            <h3> Phase 6: Conclusion + Future Opportunities</h3>
+            <h3 class="title"> Phase 6: Conclusion + Future Opportunities</h3>
             <p> While completing this prject we learned to choose fewer persise features to develope then add later on. </p>
         </main>
         <button type="button" class="btn btn-outline-dark">Dark</button>

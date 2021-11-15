@@ -1,21 +1,33 @@
 index.css
 
 html, body {
-  background-color: black;
+  background-color: black !important;
 }
 body {color:#ffffff
 }
-.inline-block {
+.inline-block { 
     color: #E291FE;}
 
 
 }
-h1, h3{
+h1, h3, h4{
   color:#E291FE
+}
+.title{
+  color: #E291FE;
+}
+.img{
+  height: 350 px;
+  width: 350px;
+  []
 }
 p{
   text-align: justify;
-  margin-top: ;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: ;
+  line-height: 30px; ;
+  color: white;
 }
 h3{
 
